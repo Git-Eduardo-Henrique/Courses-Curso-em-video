@@ -4,6 +4,8 @@ describe gafanhotos;
 # ex - 01
 select nome from gafanhotos where sexo = "F" order by nome;
 
+
+
 # ex - 02
 select nome, nascimento from gafanhotos where nascimento between "2000-01-01" and "2015-12-31" order by nascimento;
 

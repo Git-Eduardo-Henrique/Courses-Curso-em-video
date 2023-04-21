@@ -7,6 +7,7 @@ select * from gafanhotos;
 select * from cursos;
 select * from gafanhotos_cursos;
 
+
 # aula 15
 alter table gafanhotos add idcurso_fav int;
 alter table gafanhotos add foreign key(idcurso_fav) references cursos(idcurso);

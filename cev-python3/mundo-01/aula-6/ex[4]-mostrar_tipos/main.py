@@ -14,3 +14,4 @@ print(f"({tipo}) é em minusculo? \033[33m{tipo.islower()}\033[m")
 print(f"({tipo}) é em maiusculo? \033[33m{tipo.isupper()}\033[m")
 print(f"({tipo}) so tem espaços? \033[33m{tipo.isspace()}\033[m")
 # ========================================================================
+
