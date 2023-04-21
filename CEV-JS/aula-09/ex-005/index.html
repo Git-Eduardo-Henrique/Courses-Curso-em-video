@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex005 DOM</title>
+    <style>
+        body{
+            background: gray;
+            color: aliceblue;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h1">iniciando com <strong>DOM</strong></h1>
+    <p>paragrafo 1</p>
+    <p class="p2">paragrafo 2</p>
+
+    <div id="button">click aqui</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0] // [0] primeiro paragrafo
+        var button = window.document.getElementById('button')
+        var h1 = window.document.getElementsByClassName('h1')
+        var p2 = window.document.querySelector('p.p2')
+
+        p1.style.color = 'darkblue'
+        p2.style.color = 'lightblue'
+        button.style.background = 'black'
+23
+        /*
+        var body = window.document.body
+        window.document.write(p1.innerText)
+
+        body.style.background = 'black'
+        */
+    </script>
+</body>
+</html>
