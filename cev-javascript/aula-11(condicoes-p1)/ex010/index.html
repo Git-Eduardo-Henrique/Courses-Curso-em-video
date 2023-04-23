@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Multas</title>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    <p>qual sua velocidade atual?</p>
+    <input type="number" name="" id="input-velo">
+    <input type="button" value="verificar" onclick="multa()">
+
+    <div id="res"></div>
+
+    <script>
+        function multa(){
+            var velo = document.getElementById("input-velo")
+            var velonum = Number(velo.value)
+            var res = document.querySelector("div#res")
+
+            if (velonum >= 60){
+                res.innerHTML = `velocidade de ${velonum} | MULTADO!`
+            } else {
+                res.innerHTML = `velocidade de ${velonum} | SEM MULTA!`
+            }
+        }
+    </script>
+</body>
+</html>
