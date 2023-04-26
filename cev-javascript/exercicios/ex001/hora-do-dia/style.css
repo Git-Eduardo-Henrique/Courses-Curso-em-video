@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@700&display=swap');
+
+* {
+    box-sizing: border-box; /* faz com que a div filho não ultrapasse a div pai*/
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 100vw;
+
+    margin: 0;
+    background: darkslateblue;
+
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.titulo{
+    color: aliceblue;
+}
+
+.bloco-hora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    height: 40vh;
+    width: 50vw;
+
+    background: lightblue;
+    border-radius: 1rem;
+}
+.bloco-hora img{
+    border-radius: 2rem;
+    height: 70%;
+    width: 70%;
+}
+.bloco-hora-paragrafo {
+    color: darkslateblue;
+}
+
+p {
+    color: darkgray;
+}
