@@ -19,11 +19,12 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
-.titulo{
+header {
     color: aliceblue;
+    font-size: 2vh;
 }
 
-.bloco-hora{
+section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,34 +36,25 @@ body{
     background: white;
     border-radius: 1rem;
 }
-.bloco-hora img{
-    border-radius: 2rem;
-    height: 40%;
-    width: 40%;
-}
-.bloco-hora-data{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    flex-direction: row;
 
-    width: 100%
+.formulario{
+    display: flex;
+    flex-direction: column;
 }
-.bloco-hora-data input{
-    height: 50%;
-    width: 50%;
-    border-radius: 0.5rem;
-}
-.bloco-hora-checkbox{
+
+.sexo{
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
-.bloco-hora-checkbox-fm{
+.sexo-radio{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
+    align-items: center;
 }
 
+#foto{
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+}
