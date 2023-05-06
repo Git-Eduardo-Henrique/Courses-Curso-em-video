@@ -31,7 +31,6 @@ section {
     flex-direction: column;
 
     width: 45vw;
-    height: 45vh;
 
     background: lightgrey;
     border-radius: 2rem;
@@ -76,5 +75,9 @@ footer {
 }
 
 .res{
+    text-align: center;
+
     width: 80%;
+
+    color: darkviolet;
 }
