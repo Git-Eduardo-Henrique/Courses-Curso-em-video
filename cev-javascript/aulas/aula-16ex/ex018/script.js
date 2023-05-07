@@ -1,13 +1,11 @@
 var list = []
 
 function checar_lista(n){
-    for (let pos in list){
-        if (list[pos] == n){
-            window.alert("Numero já cadastrado")
-            return false
-        }
-    } 
-    return true
+    if (list.indexOf(n) == -1){
+        return true
+    } else {
+        return false
+    }
 }
 
 function analisar(){
@@ -22,15 +20,19 @@ function analisar(){
         if (checar_lista(number)){
             let p = document.querySelector("p#res")
             p.innerHTML = ""
-            
+
             list.push(number)
 
             let opt = document.createElement("option")
-            opt.text = list[list.indexOf(number)]
+            opt.text = `valor adicionado: ${number}`
 
             slt.appendChild(opt)
+        } else {
+            window.alert("Numero já adicionado")
         }
     }
+    num.value = ""
+    num.focus()
 }
 
 function avancar(){
