@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em arquivos</title>
+</head>
+
+<style>
+    /* para adicionar fontes em arquivos */
+    @font-face {
+        /* pode usar qualquer nome */
+        font-family: 'OldLondon';
+        font-weight: normal;
+        font-style: normal;
+        
+        src: url('fonts/OldLondon.ttf') format('opentype'),
+        url('fonts/Olondon_.otf') format('truetype');
+
+        /* 
+        tipos de format
+        opentype (otf)
+        truetype (ttf)
+         */
+    }
+
+    body {
+        font: 1.5em 'OldLondon', Arial, Verdana, sans-serif;
+        color: black;
+    }
+</style>
+
+<body>
+    <h1>Titulo no estilo Death Note</h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus non molestiae sit veniam sequi modi repellat 
+        aspernatur illo esse perspiciatis quibusdam maxime, dolore aut nesciunt ab quod quisquam dolor incidunt!
+    </p>
+</body>
+</html>
