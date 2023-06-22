@@ -6,9 +6,8 @@ e condição de pagamento:
 em até 2x no cartão: preço formal 
 3x ou mais no cartão: 20% de juros
 """
-titulo = "loja do seu zé"
 print(30 * "\033[34m=-=", "\033[m")
-print(f"{titulo:^90}")
+print(f"{'loja do seu zé':^90}")
 print(30 * "\033[34m=-=", "\033[m")
 
 valor = float(input("valor das suas compras: R$"))
