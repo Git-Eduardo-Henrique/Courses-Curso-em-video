@@ -1,0 +1,18 @@
+@charset "UTF-8"; /* para pt br */
+
+body{
+    background-color: #094e4e;
+}
+
+h1{
+    color: #c7c5c5;
+}
+
+#titulo-principal{
+    text-align: center;
+    background: #024141;
+}
+
+p{
+    color: #dad9d9;
+}
