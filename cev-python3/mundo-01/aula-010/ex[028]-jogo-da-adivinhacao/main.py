@@ -3,10 +3,8 @@ from time import sleep
 
 escolhido = randint(0, 5)
 
-titulo = "Jogo da adivinhação"
-
 print(30 * "\033[31m=-=", "\033[m")
-print(f'{titulo:^90}')
+print(f'{"Jogo da adivinhação":^90}')
 print(30 * "\033[31m=-=", "\033[m")
 
 digitado = int(input("Digite um valor entre 0 a 5: "))
