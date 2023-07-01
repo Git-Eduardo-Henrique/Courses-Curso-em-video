@@ -1,0 +1,23 @@
+"""
+Exercício Python 66: Crie um programa que leia números inteiros pelo teclado. O programa só vai parar quando o usuário 
+digitar o valor 999, que é a condição de parada. No final, mostre quantos números foram digitados e qual foi a soma 
+entre elas (desconsiderando o flag).
+"""
+
+soma = cont_nums = 0
+
+print(30 * "\033[36m=-=", "\033[m")
+
+while True:
+    num = int(input("digite um numero inteiro (999 para parar): "))
+    print(30 * "\033[36m=-=", "\033[m")
+
+    if num == 999:
+        break
+    else:
+        soma += num
+        cont_nums += 1
+
+print(f"total numeros digitados: {cont_nums}")
+print(f"a soma de todos os numeros deu: {soma}")
+print(30 * "\033[36m=-=", "\033[m")
