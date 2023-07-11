@@ -1,2 +1,3 @@
-Maria;22
-Teu pai;13
+AS;34
+Eduardo Henrique;18
+sus;12
