@@ -1,0 +1,25 @@
+#caixa {
+    display: inline-block;
+
+    background: #666363;
+    border: 2px solid black;
+
+    height: 200px;
+    width: 200px;
+}
+
+/* : = pseudo classe */
+#caixa:hover{
+    background: #d81111;
+}
+
+/* altera os "p" dentro da "div" */
+div > p {
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    background: #696868;
+    color: #5757e7;
+}

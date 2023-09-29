@@ -1,0 +1,31 @@
+/* 
+
+# - id
+. - class
+: - pseudo-class
+:: - pseudo-element
+> - children
+
+*/
+
+a {
+    color: #f72e2e;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #570303;
+}
+
+a:hover{
+    color: #00c3ff;
+    text-decoration: underline;
+}
+
+a::before{
+    content: '-> ';
+}
+
+a::after{
+    content: ' <-';
+}
